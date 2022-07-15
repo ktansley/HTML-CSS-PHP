@@ -1,0 +1,99 @@
+body{
+	font-family: Arial;
+	background-color: #FFFBF0;
+}
+.main{
+	display: inline-flex;
+	width: 100%;
+	height: 545px;
+	border: 3px solid black;
+}
+.nav{
+	float: left;
+	width: 15%;
+	height: 545px;
+	padding-left: 10px;
+	border-right: 3px solid black;
+	background-color: #A1B56F;
+}
+.mainright{
+	display: grid;
+	width: 85%;
+	height: 545px;
+	padding-top:0px;
+}
+.header{
+	display: inline-flex;
+	width:99%;
+	height:85px;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 3px solid black;
+	background-color: #FFFBF0;
+}
+.headerleft{
+	width: 50%;
+	float: left;
+	border:1px solid black;
+	background-color: #c3c3c3;
+}
+.headerright{
+	width: 50%;
+	border:1px solid black;
+	background-color: #c3c3c3;
+}
+.content{
+	width: 100%;
+	height: 400px;
+}
+.labcontent{
+	width: 98.7%;
+	margin: 5px;
+	height: 390px;
+	display: inline-block;
+	border: 1px solid black;
+	background-color: #93a67f;
+}
+.leftinfo{
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-right:1px solid black;
+}
+.picture{
+	height: 40%;
+	width: 100%;
+	text-align: center;
+	border-bottom:1px solid black;
+}
+.summary{
+	width: 96.5%;
+	height: 47%;
+	padding-left: 15px;
+	font-size: 11px;
+}
+.rightinfo{
+	float: right;
+	width: 49.77%;
+	height: 100%;
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	border-top: 3px solid black;
+	font-size: 10px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 13px;
+}
+p{
+	font-size: 11px;
+}
+a:hover {
+  background-color: white;
+}
